@@ -35,7 +35,7 @@
 
 <footer>
     <div class="position-fixed bottom-0" style="width: 720px; z-index: 100" id="footer">
-        <a class="btn btn-icon btn-lg btn-3" style="position: absolute; right: 30px; bottom: 70px;" href="../doa">
+        <a class="btn btn-icon btn-lg btn-3" style="position: absolute; right: 30px; bottom: 70px;" onclick="window.location='/doa';">
             <i class="fas fa-arrow-right" style="font-size: xxx-large; color: white"></i>
         </a>
         <div class="fix">
