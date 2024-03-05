@@ -50,7 +50,7 @@
         </div>
         <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;">
             <div style="font-style: italic; color: grey; font-size: 22px;" >
-                <b>Past Program</b> : [P104 - Maiwp Run] &nbsp;
+                <b>Past Program</b> : [P101 - Infaq Al-Quran] &nbsp;
                 <i class="fas fa-qrcode" id="btnQr"></i>
                 <div id="popupQr" style="display: none;">
                     Sila scan : <br>
@@ -62,7 +62,7 @@
                 <i class="fas fa-globe"></i>
                 <a href="http://wl-charity.test:8081/program">www.maiwp.gov.my/program</a>
             </div>
-            <h6 class="fontSizeHeader" style="margin: 0px; padding: 0px; line-height: 50px;">P105 : <br><div>Nama Program</div></h6>
+            <h6 class="fontSizeHeader" style="margin: 0px; padding: 0px; line-height: 50px;">P102 : <br><div>Sadaqah untuk Masjid</div></h6>
             <?php
             $current_datetime = date("Y-m-d H:i:s");
             ?>
@@ -76,9 +76,9 @@
 {{--    </div>--}}
 {{--</div>--}}
 
-<div class="heightForQrBg page-header align-items-start" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+<div class="heightForQrBg page-header align-items-start" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid.jpg');">
     <span class="mask bg-gradient-dark"></span>
-    <div class="container" style="padding-left: 10px; padding-right: 10px; ">
+    <div class="container">
         <div class="row" style="margin: 0px;">
             <div class="my-auto text-end">
                 <h4 class="text-white mb-0 fadeIn1 fadeInBottom pt-6" style="font-size: xx-large; line-height: 50px">Dana Terkumpul : <br> RM280.31</h4>

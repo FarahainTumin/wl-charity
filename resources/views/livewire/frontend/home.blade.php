@@ -62,7 +62,7 @@
 
         @media (max-height: 1080px) {
             .heightForSlider {
-                min-height: 69vh !important;
+                min-height: 51vh !important;
             }
             .fontSizeHeader {
                 font-size: 35px;
@@ -71,7 +71,7 @@
         }
         @media (min-height: 1081px) {
             .heightForSlider {
-                min-height: 36vh !important;
+                min-height: 42vh !important;
             }
             .fontSizeHeader {
                 font-size: 42px;
@@ -86,7 +86,7 @@
 <header id="header" style="background-color: #e7e7e7">
     <div class="row" style="margin: 0px;">
         <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">
-            <img src="http://wl-charity.test:8081/assets/img/charity/logo-maiwp-2020.png" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+            <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
         </div>
         <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;">
             <div style="font-style: italic; color: grey; font-size: 22px;" >
@@ -126,12 +126,12 @@
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner" style="padding-bottom: 5px;">
-        <div class="carousel-item" onclick="window.location.href='http://wl-charity.test:8081/qr';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+        <div class="carousel-item active" onclick="window.location.href='http://wl-charity.test:8081/qr';">
+            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid.jpg');">
                 <span class="mask bg-gradient-dark"></span>
-                <button class="btn btn-icon btn-lg btn-3 btn-primary top ml-" type="button" style="bottom:160px; left:20px">
-                    <span class="btn-inner--text">P105</span><br>
-                    <span class="btn-inner--text">Nama Program</span>
+                <button class="btn btn-icon btn-lg btn-3 btn-primary top ml-" type="button" style="bottom:160px; left:20px;">
+                    <span class="btn-inner--text">P102</span><br>
+                    <span class="btn-inner--text">Sadaqah untuk Masjid</span>
                 </button>
                 <div class="container">
                     <div class="row" style="margin: 0px;">
@@ -148,12 +148,12 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-item" onclick="window.location.href='http://wl-charity.test:8081/qr';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+        <div class="carousel-item" onclick="window.location.href='http://wl-charity.test:8081/qr2';">
+            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/Zakat_Fitrah.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <button class="btn btn-icon btn-lg btn-3 btn-primary top ml-" type="button" style="bottom:160px; left:20px">
-                    <span class="btn-inner--text">P105</span><br>
-                    <span class="btn-inner--text">Nama Program</span>
+                    <span class="btn-inner--text">P103</span><br>
+                    <span class="btn-inner--text">Zakat Fitrah</span>
                 </button>
                 <div class="container">
                     <div class="row" style="margin: 0px;">
@@ -170,12 +170,78 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-item active " onclick="window.location.href='http://wl-charity.test:8081/qr';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+        <div class="carousel-item " onclick="window.location.href='http://wl-charity.test:8081/qr3';">
+            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/infaq_yatim.png');">
+                <span class="mask bg-gradient-dark"></span>
+                <button class="btn btn-icon btn-lg btn-3 btn-primary top" type="button" style="bottom:160px; left:20px">
+                    <span class="btn-inner--text">P104</span><br>
+                    <span class="btn-inner--text">Infaq Anak-Anak Yatim</span>
+                </button>
+                <div class="container">
+                    <div class="row" style="margin: 0px;">
+                        <div class="my-auto text-end">
+                            <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Dana Terkumpul : <br> RM280.31</h4>
+                            <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Sasaran Dana : <br> RM800.00</h4>
+                            <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">22 Jan - 15 Feb (20 baki hari)</p>
+                            <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button">
+                                <span class="btn-inner--text">Imbas Kod QR (Sumbangan)</span>&nbsp;
+                                <span class="btn-inner--icon"><i class="fas fa-qrcode" id="btnQr"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item " onclick="window.location.href='http://wl-charity.test:8081/qr4';">
+            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/palestine.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <button class="btn btn-icon btn-lg btn-3 btn-primary top" type="button" style="bottom:160px; left:20px">
                     <span class="btn-inner--text">P105</span><br>
-                    <span class="btn-inner--text">Nama Program</span>
+                    <span class="btn-inner--text">Ikhlas Palestine</span>
+                </button>
+                <div class="container">
+                    <div class="row" style="margin: 0px;">
+                        <div class="my-auto text-end">
+                            <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Dana Terkumpul : <br> RM280.31</h4>
+                            <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Sasaran Dana : <br> RM800.00</h4>
+                            <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">22 Jan - 15 Feb (20 baki hari)</p>
+                            <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button">
+                                <span class="btn-inner--text">Imbas Kod QR (Sumbangan)</span>&nbsp;
+                                <span class="btn-inner--icon"><i class="fas fa-qrcode" id="btnQr"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item " onclick="window.location.href='http://wl-charity.test:8081/qr5';">
+            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/bantuan_turki_syria.png');">
+                <span class="mask bg-gradient-dark"></span>
+                <button class="btn btn-icon btn-lg btn-3 btn-primary top" type="button" style="bottom:160px; left:20px">
+                    <span class="btn-inner--text">P106</span><br>
+                    <span class="btn-inner--text">Tabung Bantuan Türkiye & Syria</span>
+                </button>
+                <div class="container">
+                    <div class="row" style="margin: 0px;">
+                        <div class="my-auto text-end">
+                            <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Dana Terkumpul : <br> RM280.31</h4>
+                            <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Sasaran Dana : <br> RM800.00</h4>
+                            <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">22 Jan - 15 Feb (20 baki hari)</p>
+                            <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button">
+                                <span class="btn-inner--text">Imbas Kod QR (Sumbangan)</span>&nbsp;
+                                <span class="btn-inner--icon"><i class="fas fa-qrcode" id="btnQr"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item " onclick="window.location.href='http://wl-charity.test:8081/qr6';">
+            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid2.jpg');">
+                <span class="mask bg-gradient-dark"></span>
+                <button class="btn btn-icon btn-lg btn-3 btn-primary top" type="button" style="bottom:160px; left:20px">
+                    <span class="btn-inner--text">P107</span><br>
+                    <span class="btn-inner--text">Wakaf Masjid</span>
                 </button>
                 <div class="container">
                     <div class="row" style="margin: 0px;">
@@ -198,6 +264,9 @@
             <li data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></li>
             <li data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></li>
             <li data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleControls" data-bs-slide-to="3"></li>
+            <li data-bs-target="#carouselExampleControls" data-bs-slide-to="4"></li>
+            <li data-bs-target="#carouselExampleControls" data-bs-slide-to="5"></li>
         </ol>
     </div>
 </div>
@@ -206,12 +275,12 @@
 <div style="margin-bottom: 20px">
     <div class="row" style="margin: 0px;">
         <div class="col p-1">
-            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr';" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr';" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
-                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 70%; margin-left: 10px;">
-                            <span class="btn-inner--text">P105 : Nama Program</span>
+                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 90%; margin-left: 10px;">
+                            <span class="btn-inner--text">P102 : Sadaqah untuk Masjid</span>
                         </button>
                         <div class="my-auto text-end p-0">
 
@@ -227,12 +296,12 @@
             </div>
         </div>
         <div class="col p-1">
-            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr';" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr2';" style="background-image: url('http://wl-charity.test:8081/images/fulls/Zakat_Fitrah.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
-                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 70%; margin-left: 10px;">
-                            <span class="btn-inner--text">P105 : Nama Program</span>
+                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 90%; margin-left: 10px;">
+                            <span class="btn-inner--text">P103 : Zakat Fitrah</span>
                         </button>
                         <div class="my-auto text-end p-0">
 
@@ -248,12 +317,12 @@
             </div>
         </div>
         <div class="col p-1">
-            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr';" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr3';" style="background-image: url('http://wl-charity.test:8081/images/fulls/infaq_yatim.png');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
-                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 70%; margin-left: 10px;">
-                            <span class="btn-inner--text">P105 : Nama Program</span>
+                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 90%; margin-left: 10px;">
+                            <span class="btn-inner--text">P104 : Infaq Anak-Anak Yatim</span>
                         </button>
                         <div class="my-auto text-end p-0">
 
@@ -271,12 +340,12 @@
     </div>
     <div class="row" style="margin: 0px;">
         <div class="col p-1">
-            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr';" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr4';" style="background-image: url('http://wl-charity.test:8081/images/fulls/palestine.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
-                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 70%; margin-left: 10px;">
-                            <span class="btn-inner--text">P105 : Nama Program</span>
+                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 90%; margin-left: 10px;">
+                            <span class="btn-inner--text">P105 : Ikhlas Palestine</span>
                         </button>
                         <div class="my-auto text-end p-0">
 
@@ -292,12 +361,12 @@
             </div>
         </div>
         <div class="col p-1">
-            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr';" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr5';" style="background-image: url('http://wl-charity.test:8081/images/fulls/bantuan_turki_syria.png');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
-                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 70%; margin-left: 10px;">
-                            <span class="btn-inner--text">P105 : Nama Program</span>
+                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 90%; margin-left: 10px;">
+                            <span class="btn-inner--text">P106 : Tabung Türkiye & Syria</span>
                         </button>
                         <div class="my-auto text-end p-0">
 
@@ -313,12 +382,12 @@
             </div>
         </div>
         <div class="col p-1">
-            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr';" style="background-image: url('http://wl-charity.test:8081/assets/img/charity/03.jpg');">
+            <div class="page-header" onclick="window.location.href='http://wl-charity.test:8081/qr6';" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid2.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
-                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 70%; margin-left: 10px;">
-                            <span class="btn-inner--text">P105 : Nama Program</span>
+                        <button class="btn btn-icon btn-lg btn-3 btn-primary" type="button" style="font-size: 8px; margin-top: 20px; padding: 0.625rem 1.5rem; width: 90%; margin-left: 10px;">
+                            <span class="btn-inner--text">P107 : Wakaf Masjid</span>
                         </button>
                         <div class="my-auto text-end p-0">
 

@@ -32,13 +32,13 @@ use GuzzleHttp\Middleware;
 */
 
 Route::get('/', function(){
-    return redirect('home');
+    return redirect('welcome');
 });
 //
 //Route::get('forgot-password', ForgotPassword::class)->middleware('guest')->name('password.forgot');
 //Route::get('reset-password/{id}', ResetPassword::class)->middleware('signed')->name('reset-password');
 //
-//Route::get('sign-up', Register::class)->middleware('guest')->name('register');
+//Route::get('register', Register::class)->middleware('guest')->name('register');
 //Route::get('sign-in', Login::class)->middleware('guest')->name('login');
 //
 //Route::get('user-profile', UserProfile::class)->middleware('auth')->name('user-profile');
@@ -56,8 +56,17 @@ Route::get('/', function(){
 //Route::get('rtl', RTL::class)->name('rtl');
 //});
 
+Route::get('/welcome',[TemplateController::class,'welcome']);
+Route::get('/vid',[TemplateController::class,'vid']);
+Route::get('/doa',[TemplateController::class,'doa']);
+Route::get('/doa_penutup',[TemplateController::class,'doa_penutup']);
 Route::get('/home',[TemplateController::class,'index']);
 //Route::get('home',Home::class)->middleware('guest')->name('home');
-Route::get('/qr',[TemplateController::class,'index2']);
+Route::get('/qr',[TemplateController::class,'qr']);
+Route::get('/qr2',[TemplateController::class,'qr2']);
+Route::get('/qr3',[TemplateController::class,'qr3']);
+Route::get('/qr4',[TemplateController::class,'qr4']);
+Route::get('/qr5',[TemplateController::class,'qr5']);
+Route::get('/qr6',[TemplateController::class,'qr6']);
 Route::get('/program',[TemplateController::class,'index3']);
 Route::get('/past_program',[TemplateController::class,'index4']);

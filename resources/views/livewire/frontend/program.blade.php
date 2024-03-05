@@ -59,7 +59,7 @@
         </div>
         <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;">
             <div style="font-style: italic; color: grey; font-size: 22px;" >
-                <b>Past Program</b> : [P104 - Maiwp Run] &nbsp;
+                <b>Past Program</b> : [P101 - Infaq Al-Quran] &nbsp;
                 <i class="fas fa-qrcode" id="btnQr"></i>
                 <div id="popupQr" style="display: none;">
                     Sila scan : <br>
@@ -90,27 +90,27 @@
 
     <div class="">
         <ul id="myList" style="font-size: 20px; margin-top: 50px">
-            <li><a href="http://wl-charity.test:8081/past_program">P104 - MAIWP RUN</a></li>
-            <li><a href=""> P105 - Program Name 1</a></li>
-            <li><a href=""> P106 - Program Name 2</a></li>
-            <li><a href=""> P107 - Program Name 3</a></li>
-            <li><a href=""> P108 - Program Name 4</a></li>
-            <li><a href=""> P109 - Program Name 5</a></li>
-            <li><a href=""> P110 - Program Name 6</a></li>
-            <li><a href=""> P111 - Program Name 7</a></li>
-            <li><a href=""> P112 - Program Name 8</a></li>
-            <li><a href=""> P113 - Program Name 9</a></li>
-            <li><a href=""> P114 - Program Name 10</a></li>
-            <li><a href=""> P115 - Program Name 11</a></li>
-            <li><a href=""> P116 - Program Name 12</a></li>
-            <li><a href=""> P117 - Program Name 13</a></li>
-            <li><a href=""> P118 - Program Name 14</a></li>
-            <li><a href=""> P119 - Program Name 15</a></li>
-            <li><a href=""> P120 - Program Name 16</a></li>
-            <li><a href=""> P121 - Program Name 17</a></li>
-            <li><a href=""> P122 - Program Name 18</a></li>
-            <li><a href=""> P123 - Program Name 19</a></li>
-            <li class="hidden"><a href=""> P124 - Program Name 20</a></li>
+            <li><a href="http://wl-charity.test:8081/past_program">P101 - Infaq Al-Quran</a></li>
+            <li><a href=""> P102 - Sadaqah untuk Masjid</a></li>
+            <li><a href=""> P103 - Zakat Fitrah</a></li>
+            <li><a href=""> P104 - Infaq Anak2 Yatim</a></li>
+            <li><a href=""> P105 - Ikhlas Palestine</a></li>
+            <li><a href=""> P106 - Tabung Bencana Türkiye & Syria</a></li>
+            <li><a href=""> P107 - Wakaf Masjid</a></li>
+            <li><a href=""> P108 - Program Name 7</a></li>
+            <li><a href=""> P109 - Program Name 8</a></li>
+            <li><a href=""> P110 - Program Name 9</a></li>
+            <li><a href=""> P111 - Program Name 10</a></li>
+            <li><a href=""> P112 - Program Name 11</a></li>
+            <li><a href=""> P113 - Program Name 12</a></li>
+            <li><a href=""> P114 - Program Name 13</a></li>
+            <li><a href=""> P115 - Program Name 14</a></li>
+            <li><a href=""> P116 - Program Name 15</a></li>
+            <li><a href=""> P117 - Program Name 16</a></li>
+            <li><a href=""> P118 - Program Name 17</a></li>
+            <li><a href=""> P119 - Program Name 18</a></li>
+            <li><a href=""> P120 - Program Name 19</a></li>
+            <li class="hidden"><a href=""> P121 - Program Name 20</a></li>
         </ul>
 
         <div id="readMore">Read More</div>

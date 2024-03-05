@@ -19,18 +19,21 @@
     <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
     <!-- CSS Files -->
     <link id="pagestyle" href="../assets/css/material-dashboard.css" rel="stylesheet" />
-    <style>
-        ul {
-            list-style-type: decimal;
-        }
 
+    <style>
         @media (max-height: 1080px) {
+            .heightForQrBg {
+                min-height: 150vh !important;
+            }
             .fontSizeHeader {
                 font-size: 35px;
             }
             /* Add your styles for larger screens here */
         }
         @media (min-height: 1081px) {
+            .heightForQrBg {
+                min-height: 80vh !important;
+            }
             .fontSizeHeader {
                 font-size: 42px;
             }
@@ -59,7 +62,7 @@
                 <i class="fas fa-globe"></i>
                 <a href="http://wl-charity.test:8081/program">www.maiwp.gov.my/program</a>
             </div>
-            <h6 class="fontSizeHeader" style="margin: 0px; padding: 0px; line-height: 50px;">P102 : <br><div>Sadaqah untuk Masjid</div></h6>
+            <h6 class="fontSizeHeader" style="margin: 0px; padding: 0px; line-height: 50px;">P106 : <br><div>Tabung Türkiye & Syria</div></h6>
             <?php
             $current_datetime = date("Y-m-d H:i:s");
             ?>
@@ -72,41 +75,23 @@
 {{--        <a href="#"><img src="images/fulls/12.jpg" style="width: 150%; max-width: 700px; height: 908px;" alt="Description of the image" /></a>--}}
 {{--    </div>--}}
 {{--</div>--}}
-<div style="padding: 20px 50px; font-size: 20px; margin-top: 50px">
-    <div class="">
-        <div class="">
-            <b>Nama Program : P102 - Sadaqah untuk Masjid</b>
-        </div>
-        <div class="">
-            <b>Jangka Masa : 15 Jan 2024 - 31 Jan 2024</b>
-        </div>
-        <div class="">Penganjur : MAIWP Malaysia</div>
-    </div>
-    <div style="margin-top: 20px">
-        <h4 style="">Dana</h4>
-        <div class="">Sasaran : RM250,000.00</div>
-        <div class="">Jumlah Dana : RM175,231.00</div>
-        <div class="">Jumlah Peserta : 192,241 Peserta</div>
-        <div class="">Peratusan Dana :<span style="color: green">75%</span></div>
-    </div>
-    <div style="margin-top: 20px">
-        <h4 style="">Progress</h4>
-        <div class="">Cukai / Perbelanjaan : RM2,350.40</div>
-        <div class="">Jumlah Amaun Dana : RM172,781.00</div>
-        <div class="">Penerima Manfaat : MAIWP Malaysia</div>
-        <div class="">Status :
-            <span style="color: green">
-                Tamat
-            </span>
-        </div>
-    </div>
-    <div style="margin-top: 20px">
-        <h4 style="">Muat Turun Laporan</h4>
-        <div class="">
-            <a href="#"><img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative;" alt="Description of the image" /></a>
-        </div>
-    </div>
 
+<div class="heightForQrBg page-header align-items-start" style="background-image: url('http://wl-charity.test:8081/images/fulls/bantuan_turki_syria.png');">
+    <span class="mask bg-gradient-dark"></span>
+    <div class="container" style="padding-left: 10px; padding-right: 10px; ">
+        <div class="row" style="margin: 0px;">
+            <div class="my-auto text-end">
+                <h4 class="text-white mb-0 fadeIn1 fadeInBottom pt-6" style="font-size: xx-large; line-height: 50px">Dana Terkumpul : <br> RM280.31</h4>
+                <h4 class="text-white mb-0 fadeIn1 fadeInBottom pt-6" style="font-size: xx-large; line-height: 50px">Sasaran Dana : <br> RM800.00</h4>
+                <p class="lead text-white opacity-8 fadeIn3 fadeInBottom pt-6" style="font-size: xx-large">22 Jan - 15 Feb (20 baki hari)</p>
+                <button class="btn btn-icon btn-lg btn-3 btn-primary" style="bottom:-250px; left:0px; font-size: x-large" type="button">
+                    <span class="btn-inner--text">Imbas Kod QR (Sumbangan)</span>&nbsp;
+                    <span class="btn-inner--icon" style="font-size: xx-large"><i class="fas fa-qrcode" id="btnQr"></i></span>
+                </button>
+                <a href="#"><img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative; bottom: -250px; z-index: 0" alt="Description of the image" /></a>
+            </div>
+        </div>
+    </div>
 </div>
 {{--<div style="display: flex; ">--}}
 {{--    <a href="#" class="yellow-button" style="font-size: 25px; position: absolute; left: 230px; bottom: 110px; z-index: 100">--}}
@@ -121,7 +106,7 @@
 <footer>
     <div class="position-fixed bottom-0 z-index-2" style="width:720px" id="footer">
         <button class="btn btn-icon btn-lg btn-3" onclick="window.location.href='http://wl-charity.test:8081/home';" type="button">
-            <i class="fas fa-house-user" style="font-size: xxx-large; color: black"></i>
+            <i class="fas fa-house-user" style="font-size: xxx-large; color: white"></i>
         </button>
         <div class="fix">
             <div class="row bg-gray-900" style="margin-right: 0px; margin-left: 0px">

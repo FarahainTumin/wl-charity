@@ -1,142 +1,117 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" style="background-color: lightgrey">
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <title>Charity</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    @livewireStyles
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <title>
+        Charity by MAIWP
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Nucleo Icons -->
+    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link id="pagestyle" href="../assets/css/material-dashboard.css" rel="stylesheet" />
+
     <style>
-        /* Add your custom CSS for the layout here */
-        #thumbnails {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the sizes as needed */
-            gap: 20px; /* Adjust the gap between items */
-        }
-
-        article {
-            width: 100%;
-        }
-
-        @media screen and (min-width: 600px) {
-            article {
-                width: calc(50% - 20px);
+        @media (max-height: 1080px) {
+            .heightForQrBg {
+                min-height: 150vh !important;
             }
-        }
-
-        @media screen and (min-width: 900px) {
-            article {
-                width: calc(33.33% - 20px);
+            .fontSizeHeader {
+                font-size: 35px;
             }
+            /* Add your styles for larger screens here */
         }
-        body{
-            background-color: white;
-            height: 1280px;
-        }
-        .floating-button {
-            position: fixed;
-            bottom: 100px;
-            right: 20px;
-            background-color: #376724;
-            color: #fff;
-            border: none;
-            padding: 23px 20px;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            font-size: 30px;
-            border-radius: 50px;
-            transform: rotate(95deg);
-        }
-        .floating-button-amount {
-            position: fixed;
-            top: 85px;
-            right: -38px;
-            background-color: #376724;
-            color: #fff;
-            border: none;
-            padding: 13px 60px 13px 43px;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            font-size: 30px;
-            border-radius: 50px;
-        }
-
-        .yellow-button {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #f1c40f; /* Yellow color */
-            color: #fff; /* White text */
-            border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .yellow-button:hover {
-            background-color: #d4ac0d; /* Darker yellow on hover */
-        }
-
-        /* Optional: Style for the Font Awesome icon */
-        .icon {
-            margin-right: 8px;
+        @media (min-height: 1081px) {
+            .heightForQrBg {
+                min-height: 80vh !important;
+            }
+            .fontSizeHeader {
+                font-size: 42px;
+            }
+            /* Add your styles for larger screens here */
         }
     </style>
 </head>
-<body>
-<div class="floating-button-amount">
-    RM1049
-</div>
-<!-- Header -->
-<header id="header" style="display: flex; flex-direction: row; padding: 1.5em 2.25em 1.5em 2.25em">
-    <div style="padding: 0px 25px;">
-        <a href="#"><img src="images/fulls/logo-maiwp-2020.png" style="width: 100%; max-width: 100px; height: auto; border-radius: 25px; margin: 10px;" alt="Description of the image" /></a>
-    </div>
-    <div style="text-align: justify; align-content: center; display: grid;">
-        <h1>Charity</h1>
-        <p style="font-size: 13px">Majlis Agama Islam Wilayah Persekutuan</p>
-        <ul class="icons">
-            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
+<body class="g-sidenav-show bg-white" style="width: 720px; height: 1280px; margin: 0 auto;">
+
+<header id="header" style="background-color: #e7e7e7">
+    <div class="row" style="margin: 0px;">
+        <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">
+            <img src="http://wl-charity.test:8081/assets/img/charity/logo-maiwp-2020.png" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+        </div>
+        <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;">
+            <div style="font-style: italic; color: grey; font-size: 22px;" >
+                <b>Past Program</b> : [P101 - Infaq Al-Quran] &nbsp;
+                <i class="fas fa-qrcode" id="btnQr"></i>
+                <div id="popupQr" style="display: none;">
+                    Sila scan : <br>
+                    <img src="../../../../public/images/fulls/qr.webp" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+                    <button type="button" class="btn bg-gradient-primary" id="closeBtn">Close</button>
+                </div>
+            </div>
+            <div style="font-style: italic; color: grey; font-size: 22px;" >
+                <i class="fas fa-globe"></i>
+                <a href="http://wl-charity.test:8081/program">www.maiwp.gov.my/program</a>
+            </div>
+            <h6 class="fontSizeHeader" style="margin: 0px; padding: 0px; line-height: 50px;">P104 : <br><div>Infaq Anak-Anak Yatim</div></h6>
+            <?php
+            $current_datetime = date("Y-m-d H:i:s");
+            ?>
+            <div style="font-style: italic; color: grey; font-size: 22px; padding-top: 5px;" ><?php echo $current_datetime; ?></div>
+        </div>
     </div>
 </header>
-<div>
+{{--<div style="display: flex; flex-wrap: wrap;">--}}
+{{--    <div >--}}
+{{--        <a href="#"><img src="images/fulls/12.jpg" style="width: 150%; max-width: 700px; height: 908px;" alt="Description of the image" /></a>--}}
+{{--    </div>--}}
+{{--</div>--}}
 
-</div>
-<div style="display: flex; flex-wrap: wrap;">
-    <div >
-        <a href="#"><img src="images/fulls/08.jpg" style="width: 100%; max-width: 700px; height: auto; border-radius: 25px; margin: 10px;" alt="Description of the image" /></a>
-    </div>
-</div>
-<div class="floating-button-amount">RM1049</div>
-<div style="display: flex; ">
-    <a href="#" class="yellow-button" style="font-size: 25px; position: absolute; right: 222px;">
-        RM 1
-    </a>
-    <div >
-        <div>
-            <a href="#"><img src="images/fulls/qr.webp" style="right: 0px; width: 100%; max-width: 200px; border-radius: 25px; margin: 10px; position: absolute; bottom: 238px;" alt="Description of the image" /></a>
+<div class="heightForQrBg page-header align-items-start" style="background-image: url('http://wl-charity.test:8081/images/fulls/infaq_yatim.png');">
+    <span class="mask bg-gradient-dark"></span>
+    <div class="container" style="padding-left: 10px; padding-right: 10px; ">
+        <div class="row" style="margin: 0px;">
+            <div class="my-auto text-end">
+                <h4 class="text-white mb-0 fadeIn1 fadeInBottom pt-6" style="font-size: xx-large; line-height: 50px">Dana Terkumpul : <br> RM280.31</h4>
+                <h4 class="text-white mb-0 fadeIn1 fadeInBottom pt-6" style="font-size: xx-large; line-height: 50px">Sasaran Dana : <br> RM800.00</h4>
+                <p class="lead text-white opacity-8 fadeIn3 fadeInBottom pt-6" style="font-size: xx-large">22 Jan - 15 Feb (20 baki hari)</p>
+                <button class="btn btn-icon btn-lg btn-3 btn-primary" style="bottom:-250px; left:0px; font-size: x-large" type="button">
+                    <span class="btn-inner--text">Imbas Kod QR (Sumbangan)</span>&nbsp;
+                    <span class="btn-inner--icon" style="font-size: xx-large"><i class="fas fa-qrcode" id="btnQr"></i></span>
+                </button>
+                <a href="#"><img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative; bottom: -250px; z-index: 0" alt="Description of the image" /></a>
+            </div>
         </div>
     </div>
 </div>
+{{--<div style="display: flex; ">--}}
+{{--    <a href="#" class="yellow-button" style="font-size: 25px; position: absolute; left: 230px; bottom: 110px; z-index: 100">--}}
+{{--        RM 1--}}
+{{--    </a>--}}
+{{--    <div >--}}
 
-<button class="floating-button"><i class="fas fa-phone"></i></button>
+{{--    </div>--}}
+{{--</div>--}}
 
-<footer style="position:fixed; bottom: 0; width: 100%; background-color: black">
-    <div id="footer">
-        <div class="container fix">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <p style="color: white">Copyright 2023 <a href="#">Maiwp</a>. All Rights Reserved. <br>
+{{--<button class="floating-button"><i class="fas fa-phone"></i></button>--}}
+<footer>
+    <div class="position-fixed bottom-0 z-index-2" style="width:720px" id="footer">
+        <button class="btn btn-icon btn-lg btn-3" onclick="window.location.href='http://wl-charity.test:8081/home';" type="button">
+            <i class="fas fa-house-user" style="font-size: xxx-large; color: white"></i>
+        </button>
+        <div class="fix">
+            <div class="row bg-gray-900" style="margin-right: 0px; margin-left: 0px">
+                <div class="col-md-offset-3 text-center pt-3">
+                    <p style="color: white; font-size: 23px; text-align: center; font-family: Cambria;">Copyright 2024 Maiwp. All Rights Reserved. <br>
                     </p>
                 </div>
             </div>
