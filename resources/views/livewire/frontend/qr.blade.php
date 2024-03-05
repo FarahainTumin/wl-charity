@@ -46,7 +46,7 @@
 <header id="header" style="background-color: #e7e7e7">
     <div class="row" style="margin: 0px;">
         <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">
-            <img src="{{ asset('/img/charity/logo-maiwp-2020.png') }}" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+            <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
         </div>
         <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;">
             <div style="font-style: italic; color: grey; font-size: 22px;" >
@@ -76,7 +76,7 @@
 {{--    </div>--}}
 {{--</div>--}}
 
-<div class="heightForQrBg page-header align-items-start" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid.jpg');">
+<div class="heightForQrBg page-header align-items-start" style="background-image: url('../images/fulls/masjid.jpg');">
     <span class="mask bg-gradient-dark"></span>
     <div class="container">
         <div class="row" style="margin: 0px;">
@@ -105,7 +105,7 @@
 {{--<button class="floating-button"><i class="fas fa-phone"></i></button>--}}
 <footer>
     <div class="position-fixed bottom-0 z-index-2" style="width:720px" id="footer">
-        <button class="btn btn-icon btn-lg btn-3" onclick="window.location='/home';" type="button">
+        <button class="btn btn-icon btn-lg btn-3" onclick="window.location='/welcome';" type="button">
             <i class="fas fa-house-user" style="font-size: xxx-large; color: white"></i>
         </button>
         <div class="fix">

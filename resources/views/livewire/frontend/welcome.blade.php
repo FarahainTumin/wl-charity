@@ -95,8 +95,8 @@
 </header>
 
 <div style="flex-direction: column; display: flex; align-items: center; justify-content: center; height: 90vh;">
-    <div><img style="width: 100%" src="{{ asset('/images/fulls/welcome.png') }}" alt=""></div>
-    <div style="align-items: center; display: flex; flex-direction: column;"><img src="{{ asset('/images/fulls/salam.png') }}" alt=""></div>
+    <div><img style="width: 100%" src="{{ asset('images/fulls/welcome.png') }}" alt=""></div>
+    <div style="align-items: center; display: flex; flex-direction: column;"><img src="{{ asset('images/fulls/salam.png') }}" alt=""></div>
     <div style="text-align: center; font-size: 25px; font-family: Cambria,serif;">Selamat Datang ke Kiosk e-Sadaqah</div>
     <div style="text-align: center; font-size: 25px; font-family: Cambria,serif;" class="text-xxl-center">Sentuh skrin untuk mula</div>
 </div>

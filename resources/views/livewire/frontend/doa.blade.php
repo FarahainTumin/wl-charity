@@ -94,7 +94,7 @@
     </div>
 </header>
 <div style="flex-direction: column; display: flex; align-items: center; justify-content: center; height: 90vh;">
-    <div><img style="width: 100%" src="{{ asset('/images/fulls/doa_bg.png') }}" alt=""></div>
+    <div><img style="width: 100%" src="{{ asset('images/fulls/doa_bg.png') }}" alt=""></div>
 </div>
 
 <footer>

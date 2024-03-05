@@ -94,7 +94,7 @@
     </div>
 </header>
 <div style="flex-direction: column; display: flex; justify-content: center; height: 90vh; margin: 0 40px;">
-    <div><img style="width: 100%" src="{{ asset('/images/fulls/doa_penutup.png') }}" alt=""></div>
+    <div><img style="width: 100%" src="../public/images/fulls/doa_penutup.png" alt=""></div>
     <div style="text-align: center; font-size: 45px; font-family: Cambria,serif; margin-top: 20px;"><b>Terima Kasih</b></div>
     <div style="text-align: center; font-size: 30px; font-family: Cambria,serif;" class="text-xxl-center">Semoga Amalan Kita Diterima</div>
 </div>

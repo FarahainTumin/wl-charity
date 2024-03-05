@@ -46,7 +46,7 @@
 <header id="header" style="background-color: #e7e7e7">
     <div class="row" style="margin: 0px;">
         <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">
-            <img src="{{ asset('/img/charity/logo-maiwp-2020.png') }}" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+            <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
         </div>
         <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;">
             <div style="font-style: italic; color: grey; font-size: 22px;" >
@@ -60,7 +60,7 @@
             </div>
             <div style="font-style: italic; color: grey; font-size: 22px;" >
                 <i class="fas fa-globe"></i>
-                <a href="http://wl-charity.test:8081/program">www.maiwp.gov.my/program</a>
+                <a href="/program">www.maiwp.gov.my/program</a>
             </div>
             <h6 class="fontSizeHeader" style="margin: 0px; padding: 0px; line-height: 50px;">P105 : <br><div>Ikhlas Palestine</div></h6>
             <?php
@@ -76,7 +76,7 @@
 {{--    </div>--}}
 {{--</div>--}}
 
-<div class="heightForQrBg page-header align-items-start" style="background-image: url('http://wl-charity.test:8081/images/fulls/palestine.jpg');">
+<div class="heightForQrBg page-header align-items-start" style="background-image: url('../images/fulls/palestine.jpg');">
     <span class="mask bg-gradient-dark"></span>
     <div class="container" style="padding-left: 10px; padding-right: 10px; ">
         <div class="row" style="margin: 0px;">

@@ -127,7 +127,7 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner" style="padding-bottom: 5px;">
         <div class="carousel-item active" onclick="window.location='/qr';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid.jpg');">
+            <div class="page-header heightForSlider" style="background-image: url('../images/fulls/masjid.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <button class="btn btn-icon btn-lg btn-3 btn-primary top ml-" type="button" style="bottom:160px; left:20px;">
                     <span class="btn-inner--text">P102</span><br>
@@ -149,7 +149,7 @@
             </div>
         </div>
         <div class="carousel-item" onclick="window.location='/qr2';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/Zakat_Fitrah.jpg');">
+            <div class="page-header heightForSlider" style="background-image: url('../images/fulls/Zakat_Fitrah.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <button class="btn btn-icon btn-lg btn-3 btn-primary top ml-" type="button" style="bottom:160px; left:20px">
                     <span class="btn-inner--text">P103</span><br>
@@ -171,7 +171,7 @@
             </div>
         </div>
         <div class="carousel-item " onclick="window.location='/qr3';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/infaq_yatim.png');">
+            <div class="page-header heightForSlider" style="background-image: url('../images/fulls/infaq_yatim.png');">
                 <span class="mask bg-gradient-dark"></span>
                 <button class="btn btn-icon btn-lg btn-3 btn-primary top" type="button" style="bottom:160px; left:20px">
                     <span class="btn-inner--text">P104</span><br>
@@ -193,7 +193,7 @@
             </div>
         </div>
         <div class="carousel-item " onclick="window.location='/qr4';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/palestine.jpg');">
+            <div class="page-header heightForSlider" style="background-image: url('../images/fulls/palestine.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <button class="btn btn-icon btn-lg btn-3 btn-primary top" type="button" style="bottom:160px; left:20px">
                     <span class="btn-inner--text">P105</span><br>
@@ -215,7 +215,7 @@
             </div>
         </div>
         <div class="carousel-item " onclick="window.location='/qr5';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/bantuan_turki_syria.png');">
+            <div class="page-header heightForSlider" style="background-image: url('../images/fulls/bantuan_turki_syria.png');">
                 <span class="mask bg-gradient-dark"></span>
                 <button class="btn btn-icon btn-lg btn-3 btn-primary top" type="button" style="bottom:160px; left:20px">
                     <span class="btn-inner--text">P106</span><br>
@@ -237,7 +237,7 @@
             </div>
         </div>
         <div class="carousel-item " onclick="window.location='/qr6';">
-            <div class="page-header heightForSlider" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid2.jpg');">
+            <div class="page-header heightForSlider" style="background-image: url('../images/fulls/masjid2.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <button class="btn btn-icon btn-lg btn-3 btn-primary top" type="button" style="bottom:160px; left:20px">
                     <span class="btn-inner--text">P107</span><br>
@@ -275,7 +275,7 @@
 <div style="margin-bottom: 20px">
     <div class="row" style="margin: 0px;">
         <div class="col p-1">
-            <div class="page-header" onclick="window.location='/qr';" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid.jpg');">
+            <div class="page-header" onclick="window.location='/qr';" style="background-image: url('../images/fulls/masjid.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
@@ -296,7 +296,7 @@
             </div>
         </div>
         <div class="col p-1">
-            <div class="page-header" onclick="window.location='/qr2';" style="background-image: url('http://wl-charity.test:8081/images/fulls/Zakat_Fitrah.jpg');">
+            <div class="page-header" onclick="window.location='/qr2';" style="background-image: url('../images/fulls/Zakat_Fitrah.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
@@ -317,7 +317,7 @@
             </div>
         </div>
         <div class="col p-1">
-            <div class="page-header" onclick="window.location='/qr3';" style="background-image: url('http://wl-charity.test:8081/images/fulls/infaq_yatim.png');">
+            <div class="page-header" onclick="window.location='/qr3';" style="background-image: url('../images/fulls/infaq_yatim.png');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
@@ -340,7 +340,7 @@
     </div>
     <div class="row" style="margin: 0px;">
         <div class="col p-1">
-            <div class="page-header" onclick="window.location='/qr4';" style="background-image: url('http://wl-charity.test:8081/images/fulls/palestine.jpg');">
+            <div class="page-header" onclick="window.location='/qr4';" style="background-image: url('../images/fulls/palestine.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
@@ -361,7 +361,7 @@
             </div>
         </div>
         <div class="col p-1">
-            <div class="page-header" onclick="window.location='/qr5';" style="background-image: url('http://wl-charity.test:8081/images/fulls/bantuan_turki_syria.png');">
+            <div class="page-header" onclick="window.location='/qr5';" style="background-image: url('../images/fulls/bantuan_turki_syria.png');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
@@ -382,7 +382,7 @@
             </div>
         </div>
         <div class="col p-1">
-            <div class="page-header" onclick="window.location='/qr6';" style="background-image: url('http://wl-charity.test:8081/images/fulls/masjid2.jpg');">
+            <div class="page-header" onclick="window.location='/qr6';" style="background-image: url('../images/fulls/masjid2.jpg');">
                 <span class="mask bg-gradient-dark"></span>
                 <div class="container" style="padding-left: 10px; padding-right: 10px">
                     <div class="row" style="margin: 0px;">
