@@ -78,6 +78,9 @@
             }
             /* Add your styles for larger screens here */
         }
+
+        .mask {
+            opacity: 0.4; }
     </style>
 </head>
 

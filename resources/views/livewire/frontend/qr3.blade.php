@@ -39,6 +39,8 @@
             }
             /* Add your styles for larger screens here */
         }
+        .mask {
+            opacity: 0.4; }
     </style>
 </head>
 <body class="g-sidenav-show bg-white" style="width: 720px; height: 1280px; margin: 0 auto;">
