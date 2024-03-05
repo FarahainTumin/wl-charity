@@ -86,7 +86,7 @@
     </style>
 </head>
 
-<body class="g-sidenav-show bg-white" style="width: 720px; height: 1280px; margin: 0 auto;" onclick="window.location.href='http://wl-charity.test:8081/home';">
+<body class="g-sidenav-show bg-white" style="width: 720px; height: 1280px; margin: 0 auto;" onclick="window.location='/home';">
 
 <header id="header" style="background-color: #e7e7e7">
     <div class="row" style="margin: 0px;">
