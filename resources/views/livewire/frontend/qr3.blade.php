@@ -108,6 +108,9 @@
         <button class="btn btn-icon btn-lg btn-3" onclick="window.location='/home';" type="button">
             <i class="fas fa-house-user" style="font-size: xxx-large; color: white"></i>
         </button>
+        <button class="btn btn-icon btn-lg btn-3 btn-primary" style="font-size: x-large; float: right; right: 30px" type="button" onclick="window.location='/doa_penutup';">
+            <span class="btn-inner--text">Tamat</span>
+        </button>
         <div class="fix">
             <div class="row bg-gray-900" style="margin-right: 0px; margin-left: 0px">
                 <div class="col-md-offset-3 text-center pt-3">

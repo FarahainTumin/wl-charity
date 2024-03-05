@@ -83,12 +83,12 @@
             <div class="my-auto text-end">
                 <h4 class="text-white mb-0 fadeIn1 fadeInBottom pt-6" style="font-size: xx-large; line-height: 50px">Dana Terkumpul : <br> RM280.31</h4>
                 <h4 class="text-white mb-0 fadeIn1 fadeInBottom pt-6" style="font-size: xx-large; line-height: 50px">Sasaran Dana : <br> RM800.00</h4>
-                <p class="lead text-white opacity-8 fadeIn3 fadeInBottom pt-6" style="font-size: xx-large">22 Jan - 15 Feb (20 baki hari)</p>
-                <button class="btn btn-icon btn-lg btn-3 btn-primary" style="bottom:-250px; left:0px; font-size: x-large" type="button">
+                <p class="lead text-white opacity-8 fadeIn3 fadeInBottom pt-6" style="font-size: xx-large; margin-bottom: 100px">22 Jan - 15 Feb (20 baki hari)</p>
+                <button class="btn btn-icon btn-lg btn-3 btn-primary" style="font-size: x-large" type="button">
                     <span class="btn-inner--text">Imbas Kod QR (Sumbangan)</span>&nbsp;
                     <span class="btn-inner--icon" style="font-size: xx-large"><i class="fas fa-qrcode" id="btnQr"></i></span>
                 </button>
-                <a href="#"><img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative; bottom: -250px; z-index: 0" alt="Description of the image" /></a>
+                <a href="#"><img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative; z-index: 0" alt="Description of the image" /></a>
             </div>
         </div>
     </div>
@@ -107,6 +107,9 @@
     <div class="position-fixed bottom-0 z-index-2" style="width:720px" id="footer">
         <button class="btn btn-icon btn-lg btn-3" onclick="window.location='/welcome';" type="button">
             <i class="fas fa-house-user" style="font-size: xxx-large; color: white"></i>
+        </button>
+        <button class="btn btn-icon btn-lg btn-3 btn-primary" style="font-size: x-large; float: right; right: 30px" type="button" onclick="window.location='/doa_penutup';">
+            <span class="btn-inner--text">Tamat</span>
         </button>
         <div class="fix">
             <div class="row bg-gray-900" style="margin-right: 0px; margin-left: 0px">

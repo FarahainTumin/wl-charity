@@ -94,16 +94,16 @@
     </div>
 </header>
 <div style="flex-direction: column; display: flex; justify-content: center; height: 90vh; margin: 0 40px;">
-    <div><img style="width: 100%" src="../public/images/fulls/doa_penutup.png" alt=""></div>
+    <div><img style="width: 100%" src="{{ asset('images/fulls/doa_penutup.png') }}" alt=""></div>
     <div style="text-align: center; font-size: 45px; font-family: Cambria,serif; margin-top: 20px;"><b>Terima Kasih</b></div>
     <div style="text-align: center; font-size: 30px; font-family: Cambria,serif;" class="text-xxl-center">Semoga Amalan Kita Diterima</div>
 </div>
 
 <footer>
     <div class="position-fixed bottom-0" style="width: 720px; z-index: 100" id="footer">
-{{--        <button class="btn btn-icon btn-lg btn-3" style="position: absolute; right: 30px; bottom: 70px;" onclick="window.location.href='http://wl-charity.test:8081/home';" type="button">--}}
-{{--            <i class="fas fa-arrow-right" style="font-size: xxx-large; color: white"></i>--}}
-{{--        </button>--}}
+        <button class="btn btn-icon btn-lg btn-3" onclick="window.location='/welcome';" type="button">
+            <i class="fas fa-house-user" style="font-size: xxx-large; color: black"></i>
+        </button>
         <div class="fix">
             <div class="row bg-gray-900" style="margin-right: 0px; margin-left: 0px">
                 <div class="col-md-offset-3 text-center pt-3">
