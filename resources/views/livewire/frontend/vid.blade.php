@@ -45,8 +45,8 @@
 
 <div style="width: 100%; height: 1075px;" onclick="window.location='/doa';">
     <iframe style="width: inherit; height: inherit;" class="ytplayer" src="https://www.youtube.com/embed/3PVtUYw-N9g?autoplay=1&loop=1&controls=0&mute=1" frameborder="0" allowfullscreen></iframe>
-    <div style="flex-direction: column; display: flex; align-items: center; justify-content: center;">
-        <div style="text-align: center; font-size: 25px; font-family: Cambria,serif;" class="text-xxl-center">Sentuh skrin untuk mula</div>
+    <div style="flex-direction: column; display: flex; align-items: center; justify-content: center; margin-top: -150px;">
+        <div style="text-align: center; font-size: 25px; padding: 10px 20px; font-family: Cambria,serif;" class="rounded text-xxl-center text-uppercase text-white bg-gray-900"> Sentuh skrin untuk mula </div>
     </div>
 </div>
 
