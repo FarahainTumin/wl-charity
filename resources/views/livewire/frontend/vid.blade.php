@@ -20,6 +20,10 @@
     <!-- CSS Files -->
     <link id="pagestyle" href="../assets/css/material-dashboard.css" rel="stylesheet" />
     <link id="pagestyle" href="../assets/css/material-dashboard.css" rel="stylesheet" />
+
+    <style>
+        .ytplayer {pointer-events: none;}
+    </style>
 </head>
 
 <body class="g-sidenav-show bg-white" style="width: 720px; height: 1280px; margin: 0 auto;" >
@@ -39,16 +43,19 @@
     </div>
 </header>
 
-<div style="width: 100%; height: 1075px; pointer-events: none;" >
-    <iframe style="width: inherit; height: inherit;" src="https://www.youtube.com/embed/3PVtUYw-N9g?autoplay=1&loop=1&controls=0&mute=1" frameborder="0" allowfullscreen></iframe>
+<div style="width: 100%; height: 1075px;" onclick="window.location='/doa';">
+    <iframe style="width: inherit; height: inherit;" class="ytplayer" src="https://www.youtube.com/embed/3PVtUYw-N9g?autoplay=1&loop=1&controls=0&mute=1" frameborder="0" allowfullscreen></iframe>
+    <div style="flex-direction: column; display: flex; align-items: center; justify-content: center;">
+        <div style="text-align: center; font-size: 25px; font-family: Cambria,serif;" class="text-xxl-center">Sentuh skrin untuk mula</div>
+    </div>
 </div>
 
 <footer>
     <div class="position-fixed bottom-0" style="width: 720px; z-index: 100" id="footer">
-        <a class="btn btn-icon btn-lg btn-3" style="position: absolute; right: 30px; bottom: 70px;" onclick="window.location='/doa';">
-            Sentuh
-            <i class="fas fa-arrow-right" style="font-size: xxx-large; color: white"></i>
-        </a>
+{{--        <a class="btn btn-icon btn-lg btn-3" style="position: absolute; right: 30px; bottom: 70px;" onclick="window.location='/doa';">--}}
+{{--            Sentuh--}}
+{{--            <i class="fas fa-arrow-right" style="font-size: xxx-large; color: white"></i>--}}
+{{--        </a>--}}
         <div class="fix">
             <div class="row bg-gray-900" style="margin-right: 0px; margin-left: 0px">
                 <div class="col-md-offset-3 text-center pt-3">
