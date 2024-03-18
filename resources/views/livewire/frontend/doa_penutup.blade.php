@@ -90,9 +90,19 @@
 
 <header id="header" style="background-color: #e7e7e7">
     <div class="row" style="margin: 0px;">
-
+        <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">
+            <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 50%; max-width: 70px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+        </div>
+        <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;justify-content: center;display: flex;flex-direction: column;">
+            <?php
+            date_default_timezone_set('Asia/Kuala_Lumpur');
+            $current_datetime = date("Y-m-d H:i:s");
+            ?>
+            <div style="font-style: italic; color: grey; font-size: 30px; padding-top: 5px;" ><?php echo $current_datetime; ?></div>
+        </div>
     </div>
 </header>
+
 <div style="flex-direction: column; display: flex; justify-content: center; height: 90vh; margin: 0 40px;">
     <div><img style="width: 100%" src="{{ asset('images/fulls/doa_penutup.png') }}" alt=""></div>
     <div style="text-align: center; font-size: 45px; font-family: Cambria,serif; margin-top: 20px;"><b>Terima Kasih</b></div>
@@ -101,7 +111,7 @@
 
 <footer>
     <div class="position-fixed bottom-0" style="width: 720px; z-index: 100" id="footer">
-        <button class="btn btn-icon btn-lg btn-3" onclick="window.location='/welcome';" type="button">
+        <button id="autoclick-btn" class="btn btn-icon btn-lg btn-3" onclick="window.location='/vid';" type="button">
             <i class="fas fa-house-user" style="font-size: xxx-large; color: black"></i>
         </button>
         <div class="fix">
@@ -126,23 +136,9 @@
 <script src="../assets/js/material-dashboard.min.js"></script>
 
 <script>
-    // JavaScript code to handle the click event
-    document.getElementById("btnQr").addEventListener("click", function() {
-        document.getElementById("myModal").style.display = "block";
-    });
-
-    // Close button functionality
-    document.getElementsByClassName("close")[0].addEventListener("click", function() {
-        document.getElementById("myModal").style.display = "none";
-    });
-
-    // Close modal when clicking outside of it
-    window.onclick = function(event) {
-        var modal = document.getElementById("myModal");
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+    setTimeout(function() {
+        document.getElementById('autoclick-btn').click();
+    }, 5000); // 5000 milliseconds = 5 seconds
 </script>
 </body>
 

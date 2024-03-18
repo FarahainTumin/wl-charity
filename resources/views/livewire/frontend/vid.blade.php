@@ -26,16 +26,27 @@
 
 <header id="header" style="background-color: #e7e7e7">
     <div class="row" style="margin: 0px;">
-
+        <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">
+            <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 50%; max-width: 70px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+        </div>
+        <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;justify-content: center;display: flex;flex-direction: column;">
+            <?php
+                date_default_timezone_set('Asia/Kuala_Lumpur');
+                $current_datetime = date("Y-m-d H:i:s");
+            ?>
+            <div style="font-style: italic; color: grey; font-size: 30px; padding-top: 5px;" ><?php echo $current_datetime; ?></div>
+        </div>
     </div>
 </header>
-<div style="width: 100%; height: 1230px;" >
-    <iframe style="width: inherit; height: inherit;" src="https://www.youtube.com/embed/3PVtUYw-N9g?autoplay=1&loop=1&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div style="width: 100%; height: 1075px; pointer-events: none;" >
+    <iframe style="width: inherit; height: inherit;" src="https://www.youtube.com/embed/3PVtUYw-N9g?autoplay=1&loop=1&controls=0&mute=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <footer>
     <div class="position-fixed bottom-0" style="width: 720px; z-index: 100" id="footer">
         <a class="btn btn-icon btn-lg btn-3" style="position: absolute; right: 30px; bottom: 70px;" onclick="window.location='/doa';">
+            Sentuh
             <i class="fas fa-arrow-right" style="font-size: xxx-large; color: white"></i>
         </a>
         <div class="fix">
@@ -48,6 +59,7 @@
         </div>
     </div>
 </footer>
+
 </body>
 
 </html>

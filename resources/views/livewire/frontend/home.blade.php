@@ -85,15 +85,29 @@
 </head>
 
 <body class="g-sidenav-show bg-white" style="width: 720px; height: 1280px; margin: 0 auto;">
-
 <header id="header" style="background-color: #e7e7e7">
     <div class="row" style="margin: 0px;">
         <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">
-            <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+            <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 50%; max-width: 70px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
         </div>
-        <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;">
-            <div style="font-style: italic; color: grey; font-size: 22px;" >
-                <b>Past Program</b> : [P104 - Maiwp Run] &nbsp;
+        <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;justify-content: center;display: flex;flex-direction: column;">
+            <?php
+            date_default_timezone_set('Asia/Kuala_Lumpur');
+            $current_datetime = date("Y-m-d H:i:s");
+            ?>
+            <div style="font-style: italic; color: grey; font-size: 30px; padding-top: 5px;" ><?php echo $current_datetime; ?></div>
+        </div>
+    </div>
+</header>
+
+{{--<header id="header" style="background-color: #e7e7e7">--}}
+{{--    <div class="row" style="margin: 0px;">--}}
+{{--        <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">--}}
+{{--            <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />--}}
+{{--        </div>--}}
+{{--        <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;">--}}
+{{--            <div style="font-style: italic; color: grey; font-size: 22px;" >--}}
+{{--                <b>Past Program</b> : [P104 - Maiwp Run] &nbsp;--}}
 {{--                <i class="fas fa-qrcode" id="btnQr"></i>--}}
 {{--                <div id="popupQr" style="display: none;">--}}
 {{--                    Sila scan : <br>--}}
@@ -101,31 +115,31 @@
 {{--                    <a href="#"><img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative; bottom: -470px; z-index: 0" alt="Description of the image" /></a>--}}
 {{--                    <button type="button" class="btn bg-gradient-primary" id="closeBtn">Close</button>--}}
 {{--                </div>--}}
-                <i class="fas fa-qrcode" id="btnQr"></i>
+{{--                <i class="fas fa-qrcode" id="btnQr"></i>--}}
 
-                <!-- Modal popup -->
-                <div id="myModal" class="modal" style="z-index: 100;">
-                    <div class="modal-content" style="width: fit-content">
-                        <span class="close">&times;</span>
-                        <p>Sila scan :</p>
-                        <img src="images/fulls/qr.webp" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
+{{--                <!-- Modal popup -->--}}
+{{--                <div id="myModal" class="modal" style="z-index: 100;">--}}
+{{--                    <div class="modal-content" style="width: fit-content">--}}
+{{--                        <span class="close">&times;</span>--}}
+{{--                        <p>Sila scan :</p>--}}
+{{--                        <img src="images/fulls/qr.webp" style="width: 100%; max-width: 130px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />--}}
 {{--                        <div style="display: flex; flex-direction: row-reverse;"><button type="button" style="width: 100px; margin: 0px" class="btn bg-gradient-primary" id="closeBtn">Close</button></div>--}}
-                    </div>
-                </div>
-            </div>
-            <div style="font-style: italic; color: grey; font-size: 22px;" >
-                <i class="fas fa-globe"></i>
-                <a onclick="window.location='/program';">www.maiwp.gov.my/program</a>
-            </div>
-            <h6 class="fontSizeHeader" style="margin: 0px; padding: 0px; line-height: 50px;">Dana Terkumpul : <br>
-                <div style="color: forestgreen">RM3,450.00</div></h6>
-            <?php
-            $current_datetime = date("Y-m-d H:i:s");
-            ?>
-            <div style="font-style: italic; color: grey; font-size: 22px; padding-top: 5px;" ><?php echo $current_datetime; ?></div>
-        </div>
-    </div>
-</header>
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div style="font-style: italic; color: grey; font-size: 22px;" >--}}
+{{--                <i class="fas fa-globe"></i>--}}
+{{--                <a onclick="window.location='/program';">www.maiwp.gov.my/program</a>--}}
+{{--            </div>--}}
+{{--            <h6 class="fontSizeHeader" style="margin: 0px; padding: 0px; line-height: 50px;">Dana Terkumpul : <br>--}}
+{{--                <div style="color: forestgreen">RM3,450.00</div></h6>--}}
+{{--            <?php--}}
+{{--            $current_datetime = date("Y-m-d H:i:s");--}}
+{{--            ?>--}}
+{{--            <div style="font-style: italic; color: grey; font-size: 22px; padding-top: 5px;" ><?php echo $current_datetime; ?></div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</header>--}}
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner" style="padding-bottom: 5px;">

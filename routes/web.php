@@ -32,7 +32,7 @@ use GuzzleHttp\Middleware;
 */
 
 Route::get('/', function(){
-    return redirect('welcome');
+    return redirect('vid');
 });
 //
 //Route::get('forgot-password', ForgotPassword::class)->middleware('guest')->name('password.forgot');
@@ -56,9 +56,10 @@ Route::get('/', function(){
 //Route::get('rtl', RTL::class)->name('rtl');
 //});
 
-Route::get('/welcome',[TemplateController::class,'welcome']);
+
 Route::get('/vid',[TemplateController::class,'vid']);
 Route::get('/doa',[TemplateController::class,'doa']);
+Route::get('/welcome',[TemplateController::class,'welcome']);
 Route::get('/doa_penutup',[TemplateController::class,'doa_penutup']);
 Route::get('/home',[TemplateController::class,'index']);
 //Route::get('home',Home::class)->middleware('guest')->name('home');
