@@ -113,14 +113,25 @@
                     <span class="btn-inner--text">Imbas Kod QR</span>&nbsp;
                     <span class="btn-inner--icon" style="font-size: xx-large"><i class="fas fa-qrcode" id="btnQr"></i></span>
                 </button>
-                <a href="#"><img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative; z-index: 0" alt="Description of the image" /></a>
-                <a href="#" id="debitLink" class="text-white"><p class="lead text-white pt-6 position-relative text-decoration-underline italic" style="font-size: xx-large"><b>Pembayaran melalui kad Debit</b></p></a>
+                <a href="#">
+                    <img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative; z-index: 0" alt="Description of the image" />
+                </a>
+                <a href="#" id="eWalletLink" class="text-white">
+                    <p class="lead text-white pt-2 position-relative text-decoration-underline italic" style="font-size: x-large">
+                        <b>Pembayaran melalui eWallet </b>
+{{--                        <img src="images/fulls/qr.webp" style="width: 100%; max-width: 150px; position: relative; z-index: 0" alt="Description of the image" />--}}
+                        <img src="images/fulls/tngEwallet.png" style="width: 100%; max-width: 50px; position: relative; z-index: 0" alt="Description of the image" />
+                        <img src="images/fulls/grab.png" style="width: 100%; max-width: 50px; position: relative; z-index: 0" alt="Description of the image" />
+                        <img src="images/fulls/maybank.png" style="width: 100%; max-width: 50px; position: relative; z-index: 0" alt="Description of the image" />
+                        <img src="images/fulls/duitNow.png" style="width: 100%; max-width: 50px; position: relative; z-index: 0" alt="Description of the image" />
+                    </p>
+                </a>
                 <div id="popup" class="popup">
                     <div class="popup-content" >
                         <div style="z-index: 99; position: relative;">
                             <div class="loading"></div>
                             <p style="font-size: xx-large; font-family: Cambria; z-index: 99;">Memuatkan...<br>
-                                Sila scan kad anda</p>
+                                Sila scan qrcode</p>
                         </div>
                         <div style="z-index: 0; align-content: center">
                             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -131,11 +142,48 @@
 
                     </div>
                 </div>
-                <a href="#" id="creditLink" class="text-white"><p class="lead text-white pt-2 position-relative text-decoration-underline italic" style="font-size: xx-large"><b>Pembayaran melalui kad Credit</b></p></a>
-                <div id="popup" class="popup">
-                    <div class="popup-content">
-                        <div class="loading"></div>
-                        <p style="font-size: xx-large; font-family: Cambria;">Memuatkan...</p>
+                <a href="#" id="debitLink" class="text-white">
+                    <p class="lead text-white position-relative text-decoration-underline italic" style="font-size: x-large">
+                        <b>Pembayaran melalui kad Debit </b>
+                        <img src="images/fulls/mydebit.png" style="width: 100%; max-width: 100px; position: relative; z-index: 0" alt="Description of the image" />
+                    </p>
+                </a>
+                <div id="popupD" class="popup">
+                    <div class="popup-content" >
+                        <div style="z-index: 99; position: relative;">
+                            <div class="loading"></div>
+                            <p style="font-size: xx-large; font-family: Cambria; z-index: 99;">Memuatkan...<br>
+                                Sila scan kad debit anda</p>
+                        </div>
+                        <div style="z-index: 0; align-content: center">
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+                            <dotlottie-player src="https://lottie.host/40689f79-dee9-418b-ba6f-28b7057e8a3d/sJHXGR1drY.json" background="transparent" speed="1" style="margin-top: -50px; margin-bottom: -50px;
+         height: 200px;" loop autoplay></dotlottie-player>
+                        </div>
+
+                    </div>
+                </div>
+                <a href="#" id="creditLink" class="text-white">
+                    <p class="lead text-white pt-2 position-relative text-decoration-underline italic" style="font-size: x-large">
+                        <b>Pembayaran melalui kad Credit </b>
+                        <img src="images/fulls/visaMaster.png" style="width: 100%; max-width: 50px; position: relative; z-index: 0" alt="Description of the image" />
+                    </p>
+                </a>
+                <div id="popupC" class="popup">
+                    <div class="popup-content" >
+                        <div style="z-index: 99; position: relative;">
+                            <div class="loading"></div>
+                            <p style="font-size: xx-large; font-family: Cambria; z-index: 99;">Memuatkan...<br>
+                                Sila scan kad credit anda</p>
+                        </div>
+                        <div style="z-index: 0; align-content: center">
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+                            <dotlottie-player src="https://lottie.host/40689f79-dee9-418b-ba6f-28b7057e8a3d/sJHXGR1drY.json" background="transparent" speed="1" style="margin-top: -50px; margin-bottom: -50px;
+         height: 200px;" loop autoplay></dotlottie-player>
+                        </div>
+
                     </div>
                 </div>
 
@@ -170,7 +218,7 @@
 
 
 <script>
-    document.getElementById("debitLink").addEventListener("click", function(event) {
+    document.getElementById("eWalletLink").addEventListener("click", function(event) {
         event.preventDefault(); // Prevent default link behavior
         document.getElementById("popup").style.display = "block"; // Show popup
         // Simulate loading for 3 seconds
@@ -185,12 +233,27 @@
 
         }, 3000);
     });
-    document.getElementById("creditLink").addEventListener("click", function(event) {
+    document.getElementById("debitLink").addEventListener("click", function(event) {
         event.preventDefault(); // Prevent default link behavior
-        document.getElementById("popup").style.display = "block"; // Show popup
+        document.getElementById("popupD").style.display = "block"; // Show popup
         // Simulate loading for 3 seconds
         setTimeout(function() {
-            document.getElementById("popup").style.display = "none"; // Hide popup
+            document.getElementById("popupD").style.display = "none"; // Hide popup
+            document.getElementById("successPopup").style.display = "block"; // Show success popup
+            // Close success popup after 3 seconds
+            setTimeout(function() {
+                document.getElementById("successPopup").style.display = "none"; // Hide success popup
+                window.location = '/doa_penutup';
+            }, 3000);
+
+        }, 3000);
+    });
+    document.getElementById("creditLink").addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        document.getElementById("popupC").style.display = "block"; // Show popup
+        // Simulate loading for 3 seconds
+        setTimeout(function() {
+            document.getElementById("popupC").style.display = "none"; // Hide popup
             document.getElementById("successPopup").style.display = "block"; // Show success popup
             // Close success popup after 3 seconds
             setTimeout(function() {
