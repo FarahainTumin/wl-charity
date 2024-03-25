@@ -71,3 +71,5 @@ Route::get('/qr5',[TemplateController::class,'qr5']);
 Route::get('/qr6',[TemplateController::class,'qr6']);
 Route::get('/program',[TemplateController::class,'index3']);
 Route::get('/past_program',[TemplateController::class,'index4']);
+Route::get('/index1',[TemplateController::class,'image1']);
+Route::get('/index2',[TemplateController::class,'image2']);

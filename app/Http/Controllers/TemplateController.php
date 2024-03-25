@@ -45,4 +45,10 @@ class TemplateController extends Controller
     public function index4(){
         return view('livewire.frontend.past_program');
     }
+    public function image1(){
+        return view('livewire.frontend.index1');
+    }
+    public function image2(){
+        return view('livewire.frontend.index2');
+    }
 }

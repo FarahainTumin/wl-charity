@@ -103,15 +103,15 @@
     </div>
 </header>
 
-<div style="flex-direction: column; display: flex; justify-content: center; height: 90vh; margin: 0 40px;">
-    <div><img style="width: 100%" src="{{ asset('images/fulls/doa_penutup.png') }}" alt=""></div>
-    <div style="text-align: center; font-size: 45px; font-family: Cambria,serif; margin-top: 20px;"><b>Terima Kasih</b></div>
-    <div style="text-align: center; font-size: 30px; font-family: Cambria,serif;" class="text-xxl-center">Semoga Amalan Kita Diterima</div>
-    <div style="text-align: center; margin-top: 20px"><button class="btn btn-icon btn-lg btn-3 button btn-primary" onclick="window.location='/index1';" type="button">index</button></div>
+<div style="flex-direction: column; display: flex; height: 90vh; margin: 20px 40px;">
+    <div><img style="width: 100%" src="{{ asset('images/fulls/CPK1.jpeg') }}" alt=""></div>
+{{--    <div style="text-align: center; font-size: 45px; font-family: Cambria,serif; margin-top: 20px;"><b>Terima Kasih</b></div>--}}
+{{--    <div style="text-align: center; font-size: 30px; font-family: Cambria,serif;" class="text-xxl-center">Semoga Amalan Kita Diterima</div>--}}
+    <div style="text-align: center; margin-top: 20px;"><button class="btn btn-icon btn-lg btn-3 button btn-primary" style="z-index: 100" onclick="window.location='/index2';" type="button">index2</button></div>
 </div>
 
 <footer>
-    <div class="position-fixed bottom-0" style="width: 720px; z-index: 100" id="footer">
+    <div class="position-fixed bottom-0" style="width: 720px; z-index: 99" id="footer">
         <button id="autoclick-btn" class="btn btn-icon btn-lg btn-3" onclick="window.location='/vid';" type="button">
             <i class="fas fa-house-user" style="font-size: xxx-large; color: black"></i>
         </button>
