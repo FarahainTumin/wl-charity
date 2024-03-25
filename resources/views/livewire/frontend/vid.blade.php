@@ -30,10 +30,10 @@
 
 <header id="header" style="background-color: #e7e7e7">
     <div class="row" style="margin: 0px;">
-        <div class="col-sm-4" style="padding: 10px 20px; text-align: center;">
+        <div class="col-sm-4" style="width:30%; padding: 10px 20px; text-align: center;">
             <img src="assets/img/charity/logo-maiwp-2020.png" style="width: 50%; max-width: 70px; height: auto; border-radius: 25px; margin: 10px; margin-bottom: 0px" alt="" />
         </div>
-        <div class="col-sm-8" style="text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;justify-content: center;display: flex;flex-direction: column;">
+        <div class="col-sm-8" style="width:70%;text-align: justify;padding-top: 10px;padding-left: 0px; font-family: Cambria;justify-content: center;display: flex;flex-direction: column;">
             <?php
                 date_default_timezone_set('Asia/Kuala_Lumpur');
                 $current_datetime = date("Y-m-d H:i:s");
